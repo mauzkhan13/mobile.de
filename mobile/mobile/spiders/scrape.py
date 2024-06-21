@@ -1,12 +1,8 @@
 import scrapy
-from scrapy.http import Headers, Request, Response
-from scrapy_impersonate.parser import RequestParser
 import re
 import json
 import os
 import csv
-from lxml import etree
-from lxml import html
 import pandas as pd
 from urllib.parse import urlencode
 
